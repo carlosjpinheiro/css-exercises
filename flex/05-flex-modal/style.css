@@ -20,6 +20,30 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.modal .center-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal .center-item .first-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.modal .center-item .buttons {
+  display: flex;  
+}
+
+.header {
+  font-weight: 700;
+  font-size: 110%;
 }
 
 .icon {
@@ -46,6 +70,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 button {
